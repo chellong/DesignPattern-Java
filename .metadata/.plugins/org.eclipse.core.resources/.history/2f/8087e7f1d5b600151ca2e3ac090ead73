@@ -1,0 +1,44 @@
+package com.example.singlemodel;
+
+/**
+ * 
+ * 静态内部类实现方式
+ * 
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo4 {
+
+	private static SingletonDemo4 instance;
+
+	private SingletonDemo4() {
+
+	}
+
+	/**
+	 * 调用效率
+	 * 
+	 * 未同步
+	 * 
+	 * @return
+	 */
+	public static SingletonDemo4 getInstance() {
+		
+		if(instance == null){
+			SingletonDemo4 sc;
+			synchronized(SingletonDemo4.class){
+				sc = instance;
+				if (sc == null) {
+					synchronized (SingletonDemo4.class) { // 1
+						if (sc == null) // 2
+							sc = new SingletonDemo4(); // 3
+				}
+			}
+				instance = sc;
+			}
+		}
+		return instance;
+	}
+
+}

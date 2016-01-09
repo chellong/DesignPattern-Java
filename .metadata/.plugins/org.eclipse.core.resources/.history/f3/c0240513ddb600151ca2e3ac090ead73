@@ -1,0 +1,8 @@
+package com.example.factorymode.simplefactory;
+
+public class Car {
+
+	public void run(){
+		
+	}
+}

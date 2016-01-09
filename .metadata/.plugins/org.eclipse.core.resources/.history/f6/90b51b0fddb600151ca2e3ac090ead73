@@ -1,0 +1,5 @@
+package com.example.factorymode.simplefactory;
+
+public class Car {
+
+}

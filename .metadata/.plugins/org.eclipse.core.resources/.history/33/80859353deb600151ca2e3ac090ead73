@@ -1,0 +1,10 @@
+package com.example.factorymode.simplefactory;
+
+public class FactoryClient {
+	
+	public static void main(String[] args) {
+		
+		CarFactory factory = new CarFactory();
+	}
+
+}

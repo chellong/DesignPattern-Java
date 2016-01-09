@@ -1,0 +1,9 @@
+package com.example.singlemodel;
+
+public class Client1 {
+	
+	public static void main(String[] args) {
+		SingletonDemo1 s= SingletonDemo1.getInstance();
+	}
+
+}

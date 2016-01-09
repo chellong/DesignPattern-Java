@@ -1,0 +1,26 @@
+package com.example.singlemode;
+
+/**
+ * 
+ * 测试恶汉式单利模式
+ * 
+ * 调用频繁
+ * 
+ * 线程安全，不需要添加同步块，调用效率高
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo1 {
+	
+	private static SingletonDemo1 instance = new SingletonDemo1();
+	
+	private SingletonDemo1(){
+		
+	}
+	
+	public static SingletonDemo1 getInstance(){
+		return instance;
+	}
+
+}

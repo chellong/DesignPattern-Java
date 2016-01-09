@@ -1,0 +1,16 @@
+package com.example.factorymode;
+
+/**
+ * 实现了创建者和调用者的分离
+ * 详细分类
+ * 	简单工厂模式
+ * 	工厂方法模式
+ * 	抽象工厂模式
+ * 
+ * 面向对象设计的基本原则
+ * @author 北飞的候鸟
+ *
+ */
+public class test {
+
+}

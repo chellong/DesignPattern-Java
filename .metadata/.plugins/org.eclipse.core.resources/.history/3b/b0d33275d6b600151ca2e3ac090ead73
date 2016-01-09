@@ -1,0 +1,23 @@
+package com.example.singlemodel;
+
+
+/**
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo5 {
+
+	private static class SingletonClassInstance {
+		private static final SingletonDemo5 instance = new SingletonDemo5();
+	}
+	
+	//方法没有同步，调用效率高！
+	public static SingletonDemo5  getInstance(){
+		return SingletonClassInstance.instance;
+	}
+	
+	private SingletonDemo5(){
+	}
+
+}

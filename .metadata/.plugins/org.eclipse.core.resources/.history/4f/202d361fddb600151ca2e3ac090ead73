@@ -1,0 +1,6 @@
+package com.example.factorymode.simplefactory;
+
+public class Audi implements Car{
+
+	
+}

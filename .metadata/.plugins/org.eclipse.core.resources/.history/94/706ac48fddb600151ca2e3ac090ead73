@@ -1,0 +1,8 @@
+package com.example.factorymode.simplefactory;
+
+public class Snippet {
+	public static void main(String[] args) {
+		Audi
+	}
+}
+

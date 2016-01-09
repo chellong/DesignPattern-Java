@@ -1,0 +1,16 @@
+package com.example.factorymode.simplefactory;
+
+public class FactoryClient {
+	
+	public static void main(String[] args) {
+		
+		CarFactory1 factory = new CarFactory1();
+		
+		Car c1 = factory.createCar("Audi");
+		Car c2 = factory.createCar("Byd");
+		
+		c1.run();
+		c2.run();
+	}
+
+}

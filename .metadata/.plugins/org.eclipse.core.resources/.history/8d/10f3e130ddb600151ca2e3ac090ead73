@@ -1,0 +1,9 @@
+package com.example.factorymode.simplefactory;
+
+public class Byd extends Car{
+
+	@Override
+	public void run() {
+		super.run();
+	}
+}

@@ -1,0 +1,10 @@
+package com.example.factorymode.simplefactory;
+
+public class Audi extends Car{
+
+	@Override
+	public void run() {
+		System.out.println("Byd Run");
+	}
+	
+}

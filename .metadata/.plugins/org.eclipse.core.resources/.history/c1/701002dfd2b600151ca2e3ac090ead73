@@ -1,0 +1,11 @@
+package com.example.singlemodel;
+
+/**
+ * 恶汉式单利模式
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo1 {
+	
+
+}

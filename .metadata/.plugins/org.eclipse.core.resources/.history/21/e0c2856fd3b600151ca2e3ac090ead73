@@ -1,0 +1,23 @@
+package com.example.singlemodel;
+
+/**
+ * 
+ * 测试懒汉式单利模式
+ * 
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo2 {
+	
+	private static SingletonDemo2 instance = new SingletonDemo2();
+	
+	private SingletonDemo2(){
+		
+	}
+	
+	public static SingletonDemo2 getInstance(){
+		return instance;
+	}
+
+}

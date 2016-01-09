@@ -1,0 +1,13 @@
+package com.example.factorymode.simplefactory;
+
+public class CarFactory {
+	
+	private Car createCar(String type){
+		if("".equals(type)){
+			return new Car();
+		}else if("".equals(type)){
+			
+		}
+	}
+
+}

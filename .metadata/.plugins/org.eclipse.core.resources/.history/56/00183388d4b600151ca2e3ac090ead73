@@ -1,0 +1,39 @@
+package com.example.singlemodel;
+
+/**
+ * 
+ * 
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo3 {
+	
+	private static SingletonDemo3 instance ;
+	
+	private SingletonDemo3(){
+		
+	}
+	
+	/**
+	 * 调用效率
+	 * 
+	 * 未同步
+	 * @return
+	 */
+	public static SingletonDemo3 getInstance(){
+		if(instance == null)
+			instance = new SingletonDemo3();
+		return instance;
+	}
+	/**
+	 * 同步
+	 * @return
+	 */
+	public static  synchronized SingletonDemo3 getSyncInstance(){
+		if(instance == null)
+			instance = new SingletonDemo3();
+		return instance;
+	}
+
+}

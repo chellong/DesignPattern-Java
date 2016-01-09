@@ -1,0 +1,11 @@
+package com.example.factorymode.factorymethod;
+
+public class BydFaceory implements CarFactory{
+
+	@Override
+	public Car createCar() {
+		
+		return null;
+	}
+
+}

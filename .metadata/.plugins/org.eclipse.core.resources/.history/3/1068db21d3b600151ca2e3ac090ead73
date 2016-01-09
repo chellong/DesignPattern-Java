@@ -1,0 +1,23 @@
+package com.example.singlemodel;
+
+/**
+ * 
+ * 测试恶汉式单利模式
+ * 
+ * 线程安全
+ * @author 北飞的候鸟
+ *
+ */
+public class SingletonDemo1 {
+	
+	private static SingletonDemo1 instance = new SingletonDemo1();
+	
+	private SingletonDemo1(){
+		
+	}
+	
+	public static SingletonDemo1 getInstance(){
+		return instance;
+	}
+
+}
