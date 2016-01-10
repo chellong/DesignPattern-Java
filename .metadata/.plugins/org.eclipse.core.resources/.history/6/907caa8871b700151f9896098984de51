@@ -1,0 +1,8 @@
+package com.example.adaper;
+
+public class Adapter {
+
+	public void request(){
+		System.out.println("可以完成用户所可要的需求");
+	}
+}

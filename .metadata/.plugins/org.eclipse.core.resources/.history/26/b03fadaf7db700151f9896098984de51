@@ -1,0 +1,9 @@
+package com.example.bridge;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		Computer2 c = new Computer2(new Lenovo());
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.example.adaper;
+
+/**
+ * 客户端类
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class AdapterClient {
+	
+	public void test(Target t){
+		
+	}
+	
+
+}

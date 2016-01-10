@@ -1,0 +1,97 @@
+package com.example.bridge;
+
+public interface Computer {
+	
+	void sale();
+}
+
+class DeskTop implements Computer{
+
+	@Override
+	public void sale() {
+		System.out.println("销售电脑");
+	}
+}
+
+class LapTop implements Computer{
+
+	@Override
+	public void sale() {
+		System.out.println("销售笔记本");
+	}
+}
+
+class Pad implements Computer{
+
+	@Override
+	public void sale() {
+		System.out.println("销售平板电脑");
+	}
+}
+
+class LenovoDeskTop extends DeskTop{
+	
+	@Override
+	public void sale() {
+		System.out.println("销售联想台式机");
+	}
+}
+
+class LenovoLapTop extends LapTop{
+	@Override
+	public void sale() {
+		System.out.println("销售联想笔记本");
+	}
+}
+
+class LenovoPad extends Pad{
+	@Override
+	public void sale() {
+		System.out.println("销售联想平板");
+	}
+}
+
+
+class ShenzhouDeskTop extends DeskTop{
+	
+	@Override
+	public void sale() {
+		System.out.println("销售Shenzhou台式机");
+	}
+}
+
+class ShenzhouLapTop extends LapTop{
+	@Override
+	public void sale() {
+		System.out.println("销售Shenzhou笔记本");
+	}
+}
+
+class ShenzhouPad extends Pad{
+	@Override
+	public void sale() {
+		System.out.println("销售Shenzhou平板");
+	}
+}
+
+class DaiErDeskTop extends DeskTop{
+	
+	@Override
+	public void sale() {
+		System.out.println("销售DaiEr台式机");
+	}
+}
+
+class DaiErLapTop extends LapTop{
+	@Override
+	public void sale() {
+		System.out.println("销售DaiEr笔记本");
+	}
+}
+
+class DaiErPad extends Pad{
+	@Override
+	public void sale() {
+		System.out.println("销售DaiEr平板");
+	}
+}

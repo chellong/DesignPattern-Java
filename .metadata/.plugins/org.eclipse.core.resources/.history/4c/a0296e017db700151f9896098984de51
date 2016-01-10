@@ -1,0 +1,17 @@
+package com.example.bridge;
+
+public class Computer2 {
+
+	protected  Brand brand;
+	
+	public Computer2() {
+
+	}
+
+	public Computer2(Brand brand) {
+		super();
+		this.brand = brand;
+	}
+	
+	
+}

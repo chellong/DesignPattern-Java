@@ -1,0 +1,18 @@
+package com.example.adaper;
+
+/**
+ * 
+ * @author ±±·ÉµÄºòÄñ
+ *
+ */
+public class Adapter2 implements Target{
+	
+	private Adaptee adaptee;
+	
+	
+	@Override
+	public void handleReq() {
+		adaptee.request();
+	}
+
+}

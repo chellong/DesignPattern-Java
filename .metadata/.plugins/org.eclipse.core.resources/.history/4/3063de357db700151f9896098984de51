@@ -1,0 +1,16 @@
+package com.example.bridge;
+
+public class CompuTop2 {
+
+	protected  Brand brand;
+	
+	public CompuTop2(Brand brand) {
+		this.brand = brand;
+	}
+	
+	public void sale(){
+		brand.sale();
+	}
+}
+
+class DeskTop2

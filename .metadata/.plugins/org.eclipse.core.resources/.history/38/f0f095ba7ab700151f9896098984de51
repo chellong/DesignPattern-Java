@@ -1,0 +1,30 @@
+package com.example.bridge;
+
+public interface Computer {
+	
+	void sale();
+}
+
+class DeskTop implements Computer{
+
+	@Override
+	public void sale() {
+		System.out.println("销售电脑");
+	}
+}
+
+class LapTop implements Computer{
+
+	@Override
+	public void sale() {
+		System.out.println("销售电脑");
+	}
+}
+
+class Pad implements Computer{
+
+	@Override
+	public void sale() {
+		System.out.println("销售电脑");
+	}
+}

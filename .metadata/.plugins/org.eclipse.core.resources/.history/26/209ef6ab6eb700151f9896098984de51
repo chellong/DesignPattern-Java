@@ -1,0 +1,43 @@
+package com.example.prototype;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.Date;
+
+/**
+ * 
+ * 使用序列化和反序列化深复制
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class PrototypeClient4 {
+	
+	public static void main(String[] args) throws CloneNotSupportedException, IOException, ClassNotFoundException {
+		long start = System.currentTimeMillis();
+		
+		for(int i = 0; i < 1000; i++ ) {
+			Laptop t = new Laptop(); 
+			System.out.println(t);
+		}
+		
+		long end = System.currentTimeMillis();
+		
+		System.out.println(end - start);
+	
+	}
+	
+}
+
+class Laptop implements Cloneable{
+	public Laptop(){
+		try {
+			Thread.sleep(10);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+}

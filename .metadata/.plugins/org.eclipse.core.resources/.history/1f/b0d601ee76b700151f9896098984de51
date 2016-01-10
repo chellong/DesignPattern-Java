@@ -1,0 +1,33 @@
+package com.example.proxypattern.staticproxy;
+
+public class ProxStar implements Star{
+
+	private Star star;
+	
+	@Override
+	public void confer() {
+		
+	}
+
+	@Override
+	public void signContract() {
+		
+	}
+
+	@Override
+	public void bookTicket() {
+		
+	}
+
+	@Override
+	public void sing() {
+		
+	}
+
+	@Override
+	public void collectMoney() {
+		
+	}
+
+	
+}

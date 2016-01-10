@@ -1,0 +1,18 @@
+package com.example.bridge;
+
+public class Computer2 {
+
+	protected  Brand brand;
+	
+	public Computer2(Brand brand) {
+		this.brand = brand;
+	}
+	
+	public void sale(){
+		brand.sale();
+	}
+}
+
+class DeskTop2 extends Computer2{
+	
+}

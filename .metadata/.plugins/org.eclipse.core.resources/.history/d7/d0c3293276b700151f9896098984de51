@@ -1,0 +1,11 @@
+package com.example.proxypattern.staticproxy;
+
+public interface Star {
+	
+	void confer();
+	void signContract();
+	void bookTicket();
+	void sing();
+	void collect();
+
+}

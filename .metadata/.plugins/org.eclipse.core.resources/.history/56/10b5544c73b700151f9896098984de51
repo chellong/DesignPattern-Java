@@ -1,0 +1,11 @@
+package com.example.adaper;
+
+public class Adapter2 implements Target{
+	
+
+	@Override
+	public void handleReq() {
+		super.request();
+	}
+
+}
