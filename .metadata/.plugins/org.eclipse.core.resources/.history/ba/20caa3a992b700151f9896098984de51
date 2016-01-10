@@ -1,0 +1,20 @@
+package com.example.decorator;
+
+public class AICar extends SuperCar{
+
+	public AICar(ICar icar) {
+		super(icar);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void fly(){
+		System.out.println("·ÉÐÐ");
+	}
+	
+	@Override
+	public void move() {
+		super.move();
+		fly();
+	}
+
+}

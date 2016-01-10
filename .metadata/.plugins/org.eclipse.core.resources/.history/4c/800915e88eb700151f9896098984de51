@@ -1,0 +1,11 @@
+package com.example.composite;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		AbstractFile f1,f2,f3;
+		f1 = new Folder("123");
+		f1.killVirus();
+	}
+
+}

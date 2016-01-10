@@ -1,0 +1,25 @@
+package com.example.composite;
+
+/**
+ * 
+ * @author ±±·ÉµÄºòÄñ
+ *
+ */
+
+public interface AbstractFile {
+	void killVirus();
+}
+
+class  ImageFile implements AbstractFile{
+	
+	private String name;
+	
+	public ImageFile(String name){
+		this.name = name;
+	}
+
+	@Override
+	public void killVirus() {
+		
+	}
+}

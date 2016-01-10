@@ -1,0 +1,16 @@
+package com.example.facade;
+
+public interface QSBureau {
+
+	void  QualitySupervisionBureau();  
+
+}
+
+class BeiJinQSBureau implements QSBureau{
+	
+
+	@Override
+	public void QualitySupervisionBureau() {
+		
+	}
+}

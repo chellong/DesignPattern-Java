@@ -1,0 +1,13 @@
+package com.example.flyweight;
+
+public class FlyWeightClient {
+
+	public static void main(String[] args) {
+		
+		ChessFlyWeight c1 = ChessFlyWeightFactory.getChess("ºÚÉ«");
+		ChessFlyWeight c2 = ChessFlyWeightFactory.getChess("ºÚÉ«");
+		
+		System.out.println(c1);
+		System.out.println(c2);
+	}
+}

@@ -1,0 +1,28 @@
+package com.example.flyweight;
+
+public class ConcreaeChess implements ChessFlyWeight{
+
+	private String color;
+	
+	public ConcreaeChess(String color) {
+		super();
+		this.color = color;
+	}
+
+	@Override
+	public void setColor(String c) {
+		this.color = c;
+	}
+
+	@Override
+	public String getColor() {
+		return color;
+	}
+
+	@Override
+	public void display(Coordinate c) {
+		System.out.println("棋子的颜色: " + color + "--棋子的坐标" + " ( " + c.getX() 
+		+ " , " + c.getY() + " ) ");
+	}
+
+}

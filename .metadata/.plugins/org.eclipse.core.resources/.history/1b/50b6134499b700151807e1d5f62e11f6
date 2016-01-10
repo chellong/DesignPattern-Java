@@ -1,0 +1,14 @@
+package com.example.facade;
+
+/**
+ * @author Administrator
+ *
+ */
+public class RegisterFacade {
+	public void register(){
+		
+		BeiJinTAIBureau bjTAI = new BeiJinTAIBureau();
+		BeiJinQSBureau 	bjJQS = new BeiJinQSBureau();
+		BejinTBureau    bjBur
+	}
+}

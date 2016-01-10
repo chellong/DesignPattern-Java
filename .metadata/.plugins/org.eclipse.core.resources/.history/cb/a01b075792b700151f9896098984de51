@@ -1,0 +1,18 @@
+package com.example.decorator;
+
+public class FlyCar extends SuperCar{
+
+	public FlyCar(ICar icar) {
+		super(icar);
+	}
+	
+	public void fly(){
+		
+	}
+	
+	@Override
+	public void move() {
+		super.move();
+	}
+
+}

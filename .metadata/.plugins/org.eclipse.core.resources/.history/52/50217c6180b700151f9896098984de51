@@ -1,0 +1,11 @@
+package com.example.composite;
+
+/**
+ * 
+ * @author ±±·ÉµÄºòÄñ
+ *
+ */
+
+public interface AbstractFile {
+	void killVirus();
+}

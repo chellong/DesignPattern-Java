@@ -1,0 +1,11 @@
+package com.example.chainofresponsibility;
+
+public class ChainClient {
+	
+	public static void main(String[] args) {
+		Leader a = new Director("A");
+		Leader b = new Manager("B");
+		Leader c = new GeneralManager("C");
+	}
+
+}

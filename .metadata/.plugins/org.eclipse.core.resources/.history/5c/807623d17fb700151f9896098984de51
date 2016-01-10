@@ -1,0 +1,23 @@
+package com.example.composite;
+
+/**
+ * 抽象组件
+ * @author 北飞的候鸟
+ */
+public interface Component {
+	void operation();
+}
+/**
+ * 叶子
+ * @author 北飞的候鸟
+ *
+ */
+interface Leaf extends Component{
+	
+}
+
+interface Composite extends Component{
+	void add();
+	void remove();
+	Component getChild(int index);
+}

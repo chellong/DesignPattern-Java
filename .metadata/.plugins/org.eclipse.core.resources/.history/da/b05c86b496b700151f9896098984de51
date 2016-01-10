@@ -1,0 +1,10 @@
+package com.bjsxt.facade;
+
+/**
+ * @author Administrator
+ *
+ */
+public class RegisterFacade {
+	public void register(){
+	}
+}

@@ -1,0 +1,8 @@
+package com.example.flyweight;
+
+import java.util.HashMap;
+
+public class ChessFlyWeightFactory {
+
+	private static Map<Strign,chessFlyWeight> map = new HashMap<>();
+}

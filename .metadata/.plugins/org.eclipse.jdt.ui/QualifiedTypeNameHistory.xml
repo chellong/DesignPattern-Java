@@ -11,4 +11,20 @@
 <fullyQualifiedTypeName name="com.example.factorymode.simplefactory.CarFactory"/>
 <fullyQualifiedTypeName name="com.example.factorymode.factorymethod.AudiFactory"/>
 <fullyQualifiedTypeName name="com.example.factorymode.factorymethod.CarFactory"/>
+<fullyQualifiedTypeName name="com.example.facade.BeiJinTAIBureau"/>
+<fullyQualifiedTypeName name="com.example.facade.BeiJinQSBureau"/>
+<fullyQualifiedTypeName name="com.example.facade.BejinTBureau"/>
+<fullyQualifiedTypeName name="com.example.facade.Bank"/>
+<fullyQualifiedTypeName name="com.example.facade.BankImpl"/>
+<fullyQualifiedTypeName name="java.util.MissingFormatArgumentException"/>
+<fullyQualifiedTypeName name="com.example.flyweight.ChessFlyWeight"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.example.flyweight.ConcreaeChess"/>
+<fullyQualifiedTypeName name="com.example.flyweight.ChessFlyWeightFactory"/>
+<fullyQualifiedTypeName name="com.example.flyweight.Coordinate"/>
+<fullyQualifiedTypeName name="com.example.chainofresponsibility.Leader"/>
+<fullyQualifiedTypeName name="com.example.chainofresponsibility.Director"/>
+<fullyQualifiedTypeName name="com.example.chainofresponsibility.Manager"/>
+<fullyQualifiedTypeName name="com.example.chainofresponsibility.GeneralManager"/>
+<fullyQualifiedTypeName name="com.example.chainofresponsibility.LeaveRequest"/>
 </qualifiedTypeNameHistroy>

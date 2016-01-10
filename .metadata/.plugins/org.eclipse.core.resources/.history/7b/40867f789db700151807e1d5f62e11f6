@@ -1,0 +1,22 @@
+package com.example.flyweight;
+
+public class ConcreaeChess implements ChessFlyWeight{
+
+	private String color;
+	
+	@Override
+	public void setColor(String c) {
+		this.color = c
+	}
+
+	@Override
+	public String getColor() {
+		return color;
+	}
+
+	@Override
+	public void display(Coordinate c) {
+		
+	}
+
+}

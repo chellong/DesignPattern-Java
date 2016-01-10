@@ -1,0 +1,7 @@
+package com.example.chainofresponsibility;
+
+public abstract class Leader {
+
+	protected String name;
+	protected Leader nextLeader;
+}

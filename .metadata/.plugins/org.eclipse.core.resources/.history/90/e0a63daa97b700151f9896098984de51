@@ -1,0 +1,16 @@
+package com.example.facade;
+
+public interface 质检局 {
+	void  质检局();  
+}
+
+
+
+class  QualitySupervisionBureauImpl  implements 质检局 {
+
+	@Override
+	public void orgCodeCertificate() {
+		System.out.println("");
+	}
+
+}

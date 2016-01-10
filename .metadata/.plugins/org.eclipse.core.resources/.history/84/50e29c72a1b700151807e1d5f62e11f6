@@ -1,0 +1,15 @@
+package com.example.chainofresponsibility;
+
+public class Director extends Leader{
+
+	
+	public Director(String name) {
+		super(name);
+	}
+
+	@Override
+	public void handleRequest(LeaveRequest lr) {
+		
+	}
+
+}

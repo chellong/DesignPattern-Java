@@ -1,0 +1,22 @@
+package com.example.chainofresponsibility;
+
+public class ChainClient {
+	
+	public static void main(String[] args) {
+		
+		//领导
+		Leader a = new Director("A");
+		Leader b = new Manager("B");
+		Leader c = new GeneralManager("C");
+		//上下级关系
+		a.setNextLeader(b);
+		b.setNextLeader(c);
+		
+		//开始请假
+		LeaveRequest lr = new LeaveRequest("Tom", 2, "听着隔壁子嘛水响着咧，一个丫头子嘛洗澡着咧");
+		a.handleRequest(lr);
+		
+		
+	}
+
+}

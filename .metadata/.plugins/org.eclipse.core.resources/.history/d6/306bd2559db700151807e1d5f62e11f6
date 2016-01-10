@@ -1,0 +1,14 @@
+package com.example.flyweight;
+
+/**
+ * 享元类
+ * @author 北飞的候鸟
+ *
+ */
+public interface ChessFlyWeight {
+
+	void setColor();
+	String getColor();
+	void display();
+	
+}

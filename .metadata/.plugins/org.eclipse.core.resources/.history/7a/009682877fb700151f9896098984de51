@@ -1,0 +1,9 @@
+package com.example.composite;
+
+/**
+ * 抽象组件
+ * @author 北飞的候鸟
+ */
+public interface Component {
+
+}
