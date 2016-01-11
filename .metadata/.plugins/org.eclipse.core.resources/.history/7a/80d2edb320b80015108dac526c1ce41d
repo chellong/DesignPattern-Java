@@ -1,0 +1,16 @@
+package com.example.state;
+
+/**
+ * ÒÑÈë×¡×´Ì¬
+ * @author Administrator
+ *
+ */
+public class CheckedInState implements State {
+
+	@Override
+	public void handle() {
+		System.out.println("");
+	}
+
+}
+

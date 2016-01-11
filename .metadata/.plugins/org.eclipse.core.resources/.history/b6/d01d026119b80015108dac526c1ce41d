@@ -1,0 +1,10 @@
+package com.example.visitor;
+
+/**
+ * 访问者模式
+ * @author 北飞的候鸟
+ *
+ */
+public class Info {
+
+}

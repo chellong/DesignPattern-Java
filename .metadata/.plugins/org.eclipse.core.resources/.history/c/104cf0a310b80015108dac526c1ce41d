@@ -1,0 +1,24 @@
+package com.example.mediator;
+
+@SuppressWarnings("unused")
+public class Market implements Department{
+
+	private Mediator m;
+	
+	
+	public Market(Mediator m) {
+		super();
+		this.m = m;
+		m.register("Finacial", this);
+	}
+
+	@Override
+	public void selfAction() {
+		System.out.println("Finacial");
+	}
+
+	@Override
+	public void outAction() {
+	}
+
+}

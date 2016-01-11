@@ -1,0 +1,16 @@
+package com.example.command;
+
+/**
+ * 命令行模式，数据库事务
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class CommandClient {
+
+	public static void main(String[] args) {
+		
+		Invoke i = new Invoke(new ConcreateCommand(new Receiver()));
+		i.call();
+	}
+}

@@ -1,0 +1,25 @@
+package com.example.mediator;
+
+@SuppressWarnings("unused")
+public class Development implements Department{
+
+	private Mediator m;
+	
+	
+	public Development(Mediator m) {
+		super();
+		this.m = m;
+		m.register("Development", this);
+	}
+
+	@Override
+	public void selfAction() {
+		System.out.println("√ª«Æ¡À");
+	}
+
+	@Override
+	public void outAction() {
+		System.out.println("Development");
+	}
+
+}

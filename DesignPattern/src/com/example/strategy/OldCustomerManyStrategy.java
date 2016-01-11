@@ -1,0 +1,11 @@
+package com.example.strategy;
+
+public class OldCustomerManyStrategy implements Strategy {
+
+	@Override
+	public double getPrice(double standardPrice) {
+		System.out.println("Дђ8ел");
+		return standardPrice * 0.8;
+	}
+
+}

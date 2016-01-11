@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.example.singlemodel.SingletonDemo1"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.example.factorymode.simplefactory.Audi"/>
@@ -16,9 +15,7 @@
 <fullyQualifiedTypeName name="com.example.facade.BejinTBureau"/>
 <fullyQualifiedTypeName name="com.example.facade.Bank"/>
 <fullyQualifiedTypeName name="com.example.facade.BankImpl"/>
-<fullyQualifiedTypeName name="java.util.MissingFormatArgumentException"/>
 <fullyQualifiedTypeName name="com.example.flyweight.ChessFlyWeight"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.example.flyweight.ConcreaeChess"/>
 <fullyQualifiedTypeName name="com.example.flyweight.ChessFlyWeightFactory"/>
 <fullyQualifiedTypeName name="com.example.flyweight.Coordinate"/>
@@ -27,4 +24,17 @@
 <fullyQualifiedTypeName name="com.example.chainofresponsibility.Manager"/>
 <fullyQualifiedTypeName name="com.example.chainofresponsibility.GeneralManager"/>
 <fullyQualifiedTypeName name="com.example.chainofresponsibility.LeaveRequest"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.example.mediator.Department"/>
+<fullyQualifiedTypeName name="com.example.mediator.Mediator"/>
+<fullyQualifiedTypeName name="com.example.mediator.President"/>
+<fullyQualifiedTypeName name="com.example.mediator.Market"/>
+<fullyQualifiedTypeName name="com.example.mediator.Development"/>
+<fullyQualifiedTypeName name="com.example.mediator.Finacial"/>
+<fullyQualifiedTypeName name="com.example.command.Invoke"/>
+<fullyQualifiedTypeName name="com.example.command.ConcreateCommand"/>
+<fullyQualifiedTypeName name="com.example.command.Receiver"/>
+<fullyQualifiedTypeName name="java.util.MissingFormatArgumentException"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
 </qualifiedTypeNameHistroy>

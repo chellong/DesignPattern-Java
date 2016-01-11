@@ -1,0 +1,19 @@
+package com.example.strategy;
+
+/**
+ * 策略模式
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+
+public class Client {
+	public static void main(String[] args) {
+
+		Strategy s1 = new OldCustomerManyStrategy();
+		Context ctx = new Context(s1);
+
+		ctx.pringPrice(998);
+
+	}
+}

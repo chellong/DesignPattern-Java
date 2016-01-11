@@ -2,7 +2,7 @@ package com.example.facade;
 
 /**
  * 
- * 外观模式
+ * 外观模式,将需求进行包装
  * 
  * @author 北飞的候鸟
  *

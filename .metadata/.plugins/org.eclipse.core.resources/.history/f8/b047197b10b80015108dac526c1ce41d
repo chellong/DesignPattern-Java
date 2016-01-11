@@ -1,0 +1,24 @@
+package com.example.mediator;
+
+public class Finacial implements Department{
+
+	private Mediator m;
+	
+	
+	public Finacial(Mediator m) {
+		super();
+		this.m = m;
+		m.register("Finacial", this);
+	}
+
+	@Override
+	public void selfAction() {
+		System.out.println("Finacial");
+	}
+
+	@Override
+	public void outAction() {
+		System.out.println("Finacial");
+	}
+
+}

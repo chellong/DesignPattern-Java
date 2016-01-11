@@ -1,0 +1,30 @@
+package com.example.mediator;
+
+/**
+ * 
+ * 中介者模式
+ * 
+ * @author 北飞的候鸟
+ *
+ */
+public class MediatorClient {
+
+	public static void main(String[] args) {
+		
+		Mediator m = new President();
+		
+		Market market = new Market(m);
+		Development development = new Development(m);
+		Finacial finacial = new Finacial(m);
+		
+		market.selfAction();
+		market.outAction();
+		
+		development.selfAction();
+		development.outAction();
+		
+		finacial.selfAction();
+		finacial.outAction();
+		
+	}
+}

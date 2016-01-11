@@ -1,0 +1,13 @@
+package com.example.mediator;
+
+/**
+ * 
+ * @author ±±·ÉµÄºòÄñ
+ *
+ */
+public class MediatorClient {
+
+	public static void main(String[] args) {
+		
+	}
+}
